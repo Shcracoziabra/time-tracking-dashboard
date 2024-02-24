@@ -51,5 +51,6 @@ Here I used data from `data.json` to generate html content.
 
 - [CSS-tricks Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped me to understand some CSS Grid concepts.
 
+### Author
 - GitHub - [Tetiana B.](https://github.com/Shcracoziabra)
 - Frontend Mentor - [@Shcracoziabra](https://www.frontendmentor.io/profile/Shcracoziabra)
