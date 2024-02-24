@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="card">
+      <div class="card__user">
+        <div class="card__icon-wrapper">
+          <img src="./images/image-jeremy.png" alt="a smiling guy">
+        </div>
+        <p class="card__for">Report for</p>
+        <h1 class="card__title">Jeremy Robson</h1>
+      </div>
+      <ul class="card__time-list">
+        <li class="card__time-item " data-time="daily">Daily</li>
+        <li class="card__time-item card__time-item_chosen" data-time="weekly">Weekly</li>
+        <li class="card__time-item " data-time="monthly">Monthly</li>
+      </ul>
+    </div>
+
+    <!-- <section class="activity" data-activity="work">
+      <div class="activity__inner">
+        <div class="activity__details-trigger"></div>
+        <h2 class="activity__description">Work</h2>
+        <div data-time="daily" class="activity__spent">
+          <p class="activity__current">5hrs</p>
+          <p class="activity__previous">Last Week - 7hrs</p>
+        </div>
+        <div data-time="weekly" class="activity__spent activity__spent_visible">
+          <p class="activity__current">32hrs</p>
+          <p class="activity__previous">Last Week - 36hrs</p>
+        </div>
+        <div data-time="monthly" class="activity__spent">
+          <p class="activity__current">103hrs</p>
+          <p class="activity__previous">Last Week - 128hrs</p>
+        </div>
+      </div>
+    </section>
+    <section class="activity" data-activity="play">
+      <div class="activity__inner">
+        <div class="activity__details-trigger"></div>
+        <h2 class="activity__description">Play</h2>
+        <div data-time="daily" class="activity__spent">
+          <p class="activity__current">1hr</p>
+          <p class="activity__previous">Last Week - 2hrs</p>
+        </div>
+        <div data-time="weekly" class="activity__spent activity__spent_visible">
+          <p class="activity__current">10hrs</p>
+          <p class="activity__previous">Last Week - 8hrs</p>
+        </div>
+        <div data-time="monthly" class="activity__spent">
+          <p class="activity__current">23hrs</p>
+          <p class="activity__previous">Last Week - 29hrs</p>
+        </div>
+      </div>
+    </section>
+    <section class="activity" data-activity="study">
+      <div class="activity__inner">
+        <div class="activity__details-trigger"></div>
+        <h2 class="activity__description">Study</h2>
+        <div data-time="daily" class="activity__spent">
+          <p class="activity__current">0hrs</p>
+          <p class="activity__previous">Last Week - 1hr</p>
+        </div>
+        <div data-time="weekly" class="activity__spent activity__spent_visible">
+          <p class="activity__current">4hrs</p>
+          <p class="activity__previous">Last Week - 7hrs</p>
+        </div>
+        <div data-time="monthly" class="activity__spent">
+          <p class="activity__current">13hrs</p>
+          <p class="activity__previous">Last Week - 19hrs</p>
+        </div>
+      </div>
+    </section>
+    <section class="activity" data-activity="exercise">
+      <div class="activity__inner">
+        <div class="activity__details-trigger"></div>
+        <h2 class="activity__description">Exercise</h2>
+        <div data-time="daily" class="activity__spent">
+          <p class="activity__current">1hr</p>
+          <p class="activity__previous">Last Week - 1hr</p>
+        </div>
+        <div data-time="weekly" class="activity__spent activity__spent_visible">
+          <p class="activity__current">4hrs</p>
+          <p class="activity__previous">Last Week - 5hrs</p>
+        </div>
+        <div data-time="monthly" class="activity__spent">
+          <p class="activity__current">11hrs</p>
+          <p class="activity__previous">Last Week - 18hrs</p>
+        </div>
+      </div>
+    </section>
+    <section class="activity" data-activity="social">
+      <div class="activity__inner">
+        <div class="activity__details-trigger"></div>
+        <h2 class="activity__description">Social</h2>
+        <div data-time="daily" class="activity__spent">
+          <p class="activity__current">1hr</p>
+          <p class="activity__previous">Last Week - 3hrs</p>
+        </div>
+        <div data-time="weekly" class="activity__spent activity__spent_visible">
+          <p class="activity__current">5hrs</p>
+          <p class="activity__previous">Last Week - 10hrs</p>
+        </div>
+        <div data-time="monthly" class="activity__spent">
+          <p class="activity__current">21hrs</p>
+          <p class="activity__previous">Last Week - 23hrs</p>
+        </div>
+      </div>
+    </section>
+    <section class="activity" data-activity="self-care">
+      <div class="activity__inner">
+        <div class="activity__details-trigger"></div>
+        <h2 class="activity__description">Self Care</h2>
+        <div data-time="daily" class="activity__spent">
+          <p class="activity__current">0hrs</p>
+          <p class="activity__previous">Last Week - 1hr</p>
+        </div>
+        <div data-time="weekly" class="activity__spent activity__spent_visible">
+          <p class="activity__current">2hrs</p>
+          <p class="activity__previous">Last Week - 2hrs</p>
+        </div>
+        <div data-time="monthly" class="activity__spent">
+          <p class="activity__current">7hrs</p>
+          <p class="activity__previous">Last Week - 11hrs</p>
+        </div>
+      </div>
+    </section> -->
+
+  </main>
+  
+  <footer class="footer footer_hidden">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Shcracoziabra" target="_blank">Tetiana B.</a>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
